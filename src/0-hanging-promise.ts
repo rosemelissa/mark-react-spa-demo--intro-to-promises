@@ -11,11 +11,11 @@ function printStraightforwardly(message: string) {
 function printWithSleep(message: string) {
   console.log("START of function body");
 
-  sleep(5000);
+  sleep(10000);
   console.log(message);
 
   console.log("END of function body");
 }
 
-printStraightforwardly("Hello world!");
-// printWithSleep("Hello world!");
+// printStraightforwardly("Hello world!");
+printWithSleep("Hello world!");
